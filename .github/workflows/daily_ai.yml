@@ -4,8 +4,6 @@ on:
   schedule:
     # 6 AM Vietnam (23:00 UTC)
     - cron: "0 23 * * *"
-    # 5 PM Vietnam (10:00 UTC)
-    - cron: "0 10 * * *"
   workflow_dispatch:
 
 jobs:
