@@ -94,7 +94,7 @@ Trả về JSON schema:
     with open("config.yaml", "r", encoding="utf-8") as f:
         config = yaml.safe_load(f) or {}
     ai_cfg = config.get("ai", {})
-    ai_model = ai_cfg.get("model", "deepseek/deepseek-r1-0528")
+    ai_model = ai_cfg.get("model", "openai/gpt-oss-120b:free")
     max_tokens = ai_cfg.get("max_tokens_digest", 4000)
 
     try:

@@ -34,7 +34,7 @@ Yêu cầu:
 4. Văn phong báo chí hiện đại.
 """
 
-    ai_model = ai_cfg.get("model", "deepseek/deepseek-r1-0528")
+    ai_model = ai_cfg.get("model", "openai/gpt-oss-120b:free")
     max_tokens = ai_cfg.get("max_tokens_cluster", 2000)
 
     try:
