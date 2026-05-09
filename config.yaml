@@ -1,5 +1,5 @@
 ai:
-  model: "tngtech/deepseek-r1t2-chimera:free"
+  model: "openai/gpt-oss-120b:free"
   max_tokens_digest: 4000
   max_tokens_cluster: 2000
 
